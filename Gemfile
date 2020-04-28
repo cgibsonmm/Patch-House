@@ -49,6 +49,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'simplecov', require: false
   # Adds support for Capybara system testing and selenium driver
   gem 'rspec-rails'
   gem 'guard-rspec'
